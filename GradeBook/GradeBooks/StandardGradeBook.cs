@@ -7,12 +7,11 @@ using System.Xml.Linq;
 
 namespace GradeBook.GradeBooks
 {
-    internal class StandardGradeBook : BaseGradeBook
+    public class StandardGradeBook : BaseGradeBook
     {
         public StandardGradeBook(string name) :base(name)
         {
-            BaseGradeBook.Type = Enums.GradeBookType.Standard;
-            //sdsadsa
+            Type = Enums.GradeBookType.Standard;
         }
     }
 }
